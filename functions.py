@@ -1,6 +1,7 @@
 # "def" creates a custom function (like "input" or "print"). It returns None if return value is not give explicitly
 # "def 'function'('parameter')
-FILEPATH = "todos.txt"
+FILEPATH = "files/todos.txt"
+
 
 def get_todos(filepath=FILEPATH):
     """ Read a text file and return the list of
